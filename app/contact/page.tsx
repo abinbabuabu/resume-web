@@ -1,20 +1,26 @@
 import React from 'react';
+import SectionTitle from "@/app/components/section-title";
+import SocialHandles from "@/app/components/social-handles";
 
 export default function Home() {
     return (
-        <section className="my-5">
-            <h1 className="text-xl font-bold">About</h1>
-            <p >
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry&lsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
+        <section className="mb-6">
+                <SectionTitle title="Let's talk !"/>
+                <p>
+                    I'm on the lookout for fresh opportunities where I can not only grow but also contribute my skills
+                    and knowledge.
+                    If you have exciting projects, job openings, or ideas, I'd love to hear about them.
+                </p>
+            <div className="flex flex-col">
+                <div className="w-14 m-auto">
+                    <SocialHandles/>
+                </div>
+                <div className="m-auto">
+                    Developed with <span className="text-red-500">❤</span> by Abin Babu
+                </div>
+            </div>
+
+
         </section>
     )
 }

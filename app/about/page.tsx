@@ -1,9 +1,12 @@
 import React from 'react';
+import SectionTitle from '../components/section-title';
 
 export default function About() {
     return (
-        <section className="lg:pr-16 md:pr-8 sm:pr-4 sm:pl-4 md:pl-0">
+        <section className="flex md:pl-0 lg:pr-16 md:pr-8">
             <div>
+                <SectionTitle title="About me"/>
+
                 <p>I use code to solve real-world problems :-)</p>
 
                 <p>
@@ -25,3 +28,4 @@ export default function About() {
         </section>
     )
 }
+
