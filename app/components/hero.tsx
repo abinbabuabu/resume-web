@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './nav';
 
 export default function Hero() {
     return (
@@ -10,6 +11,8 @@ export default function Hero() {
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry‘s standard dummy text ever since the 1500s,
                 </p>
+
+                <Nav/>
 
 
             </header>
