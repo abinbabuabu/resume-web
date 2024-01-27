@@ -3,7 +3,7 @@ import React from 'react';
 export default function GithubIcon() {
     return (
         <svg
-            className="hover:stroke-cyan-500"
+            className="hover:stroke-accent transition-colors duration-300"
             xmlns="http://www.w3.org/2000/svg"
             role="img"
             viewBox="0 0 24 24"

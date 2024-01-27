@@ -4,7 +4,7 @@ import SectionTitle from "@/app/components/section-title";
 
 export default function Experience() {
     return (
-        <section className="my-5">
+        <section className="my-5 text-normalText">
             <SectionTitle title="Experience"/>
             <ExperienceTile/>
             <ExperienceTile/>

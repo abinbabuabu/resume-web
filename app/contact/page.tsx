@@ -4,7 +4,7 @@ import SocialHandles from "@/app/components/social-handles";
 
 export default function Home() {
     return (
-        <section className="mb-6">
+        <section className="mb-6 text-normalText">
                 <SectionTitle title="Let's talk !"/>
                 <p>
                     I'm on the lookout for fresh opportunities where I can not only grow but also contribute my skills

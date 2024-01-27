@@ -12,7 +12,7 @@ export default function ExperienceTile() {
                 </div>
             </div>
 
-            <ul className="list-disc ">
+            <ul className="list-disc">
             <li>Specialising in Angular, Typescript, Ngrx, Module-Federated mirco-frontends.</li>
                 <li>Developed highly customizable metadata driven ui solutions.</li>
                 <li>Responsible for designing (low-level) and developing cross-module re-useable ui's.</li>

@@ -5,20 +5,22 @@ import Experience from "@/app/experience/page";
 
 export default function Home() {
     return (
-        <body className="overflow-visible pt-32 pb-20 scroll-smooth md:overflow-y-hidden">
-            <div className="grid grid-cols-1 mx-8 gap-8 md:grid-cols-5">
-                <div className="mt-12 md:col-span-2 md:mt-24">
-                    <Hero/>
-                </div>
-                <main className="md:col-span-3 md:h-screen md:overflow-y-auto md:overflow-x-hidden ">
-                    <About/>
-                    <Experience/>
-                    <Contact/>
 
-                </main>
+            <div className="pl-8 pr-4 md:p-0 overflow-x-hidden justify-center md:overflow-y-hidden md:h-screen md:fixed">
+                <div className="grid grid-cols-1 gap-12 md:grid-cols-5">
+                    <div className="mt-12 md:col-span-2 md:mt-24">
+                        <Hero/>
+                    </div>
+                    <main className="text-base md:col-span-3 md:pl-4 md:h-screen md:overflow-y-auto md:overflow-x-hidden ">
+                        <About/>
+                        <Experience/>
+                        <Contact/>
+
+                    </main>
+                </div>
+
+
             </div>
 
-
-        </body>
     )
 }
