@@ -6,8 +6,8 @@ export default function ExperienceTile() {
         <div className="hover:backdrop-blur group mb-8">
            <h6>2019 - 2020</h6>
             <div className="flex flex-row gap-2">
-                <h4 className="font-bold mb-4 hover:text-blue-300">Developer - SAP</h4>
-                <div className="justify-center hover:text-blue-300 group-hover:block group-hover:z-30 transition ease-in-out delay-100  group-hover:scale-110 duration-300">
+                <h4 className="font-bold mb-4 hover:text-cyan-500">Developer - SAP</h4>
+                <div className="justify-center hover:text-cyan-500 group-hover:block group-hover:z-30 transition ease-in-out delay-100 group-hover:scale-110 duration-300">
                     <ExternalIcon/>
                 </div>
             </div>

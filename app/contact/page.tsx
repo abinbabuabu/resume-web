@@ -11,14 +11,16 @@ export default function Home() {
                     and knowledge.
                     If you have exciting projects, job openings, or ideas, I'd love to hear about them.
                 </p>
-            <div className="flex flex-col">
-                <div className="w-14 m-auto">
-                    <SocialHandles/>
+            <footer>
+                <div className="flex flex-col">
+                    <div className="w-14 m-auto">
+                        <SocialHandles/>
+                    </div>
+                    <div className="m-auto">
+                        Developed with <span className="text-red-500">❤</span> by Abin Babu
+                    </div>
                 </div>
-                <div className="m-auto">
-                    Developed with <span className="text-red-500">❤</span> by Abin Babu
-                </div>
-            </div>
+            </footer>
 
 
         </section>

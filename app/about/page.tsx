@@ -3,7 +3,7 @@ import SectionTitle from '../components/section-title';
 
 export default function About() {
     return (
-        <section className="flex md:pl-0 lg:pr-16 md:pr-8">
+        <section className="md:pl-0 lg:pr-16 md:pr-8 md:pt-20">
             <div>
                 <SectionTitle title="About me"/>
 
