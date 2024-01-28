@@ -1,7 +1,8 @@
 import Hero from "@/app/components/hero";
 import About from "@/app/about/page";
 import Contact from "@/app/contact/page";
-import Experience from "@/app/experience/page";
+import Experience from "@/app/(experience)/page";
+
 
 export default function Home() {
     return (
@@ -11,10 +12,15 @@ export default function Home() {
                     <div className="mt-12 md:col-span-2 md:mt-24">
                         <Hero/>
                     </div>
-                    <main className="text-base md:col-span-3 md:pl-4 md:h-screen md:overflow-y-auto md:overflow-x-hidden ">
+                    <main className="text-base md:col-span-3 md:pl-10 md:h-screen md:overflow-y-auto md:overflow-x-hidden scroll-smooth ">
                         <About/>
-                        <Experience/>
+
                         <Contact/>
+                        <Contact/>
+                        <Contact/>
+                        <Contact/>
+
+                        <Experience/>
 
                     </main>
                 </div>

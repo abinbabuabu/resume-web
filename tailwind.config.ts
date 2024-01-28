@@ -13,7 +13,7 @@ const config: Config = {
                     letterSpacing: '0.01em',
                     fontWeight: '300',
                 }],
-              'h1': '5.4936rem'
+              'h1': '4.4936rem'
             },
             colors: {
                 primary: {
@@ -28,7 +28,48 @@ const config: Config = {
                 },
                 accent: {
                     DEFAULT: '#b2ff9e',
+                },
+                g1: '#51c26f',
+                g2: '#adfda2',
+                g3: '#11d3f3',
+            },
+
+            keyframes: {
+                animatedgradient: {
+                    '0%': { backgroundPosition: '0% 50%' },
+                    '50%': { backgroundPosition: '100% 50%' },
+                    '100%': { backgroundPosition: '0% 50%' },
+                },
+                typewriter: {
+                    to: {
+                        left: '100%',
+                    },
+                },
+                blink: {
+                    '0%': {
+                        opacity: '0',
+                    },
+                    '0.1%': {
+                        opacity: '1',
+                    },
+                    '50%': {
+                        opacity: '1',
+                    },
+                    '50.1%': {
+                        opacity: '0',
+                    },
+                    '100%': {
+                        opacity: '0',
+                    },
                 }
+            },
+            backgroundSize: {
+                '300%': '300%',
+            },
+            animation: {
+                gradient: 'animatedgradient 6s ease infinite alternate',
+                typewriter: 'typewriter 0.5s steps(7) forwards',
+                caret: 'typewriter 0.5s steps(7) forwards, blink 1s steps(7) infinite 2s',
             },
         },
     },
