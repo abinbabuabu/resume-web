@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionTitle from '../components/section-title';
+import Skill from "@/app/components/skill";
 
 export default function About() {
     return (
@@ -26,6 +27,10 @@ export default function About() {
                 </p>
 
                 <p>Here are a few technologies I’ve been working with recently:</p>
+
+                <Skill/>
+
+
             </div>
         </section>
     )
