@@ -1,11 +1,14 @@
 import React from 'react';
 import SectionTitle from '../components/section-title';
+import Skill from "@/app/components/skill";
 
 export default function About() {
     return (
-        <section className="text-base text-normalText  md:pl-0 lg:pr-16 md:pr-8 md:pt-20 ">
+        <section className="text-base text-normalText md:pl-0 lg:pr-16 md:pr-8 md:pt-20 ">
             <div>
+
                 <SectionTitle title="About me"/>
+
 
                 <p className="">I use code to solve real-world problems :-)</p>
 
@@ -24,6 +27,10 @@ export default function About() {
                 </p>
 
                 <p>Here are a few technologies I’ve been working with recently:</p>
+
+                <Skill/>
+
+
             </div>
         </section>
     )
