@@ -7,9 +7,9 @@ export default function Home() {
         <section className="mb-6 text-normalText">
                 <SectionTitle title="Let's talk !"/>
                 <p>
-                    I'm on the lookout for fresh opportunities where I can not only grow but also contribute my skills
+                    Im on the lookout for fresh opportunities where I can not only grow but also contribute my skills
                     and knowledge.
-                    If you have exciting projects, job openings, or ideas, I'd love to hear about them.
+                    If you have exciting projects, job openings, or ideas, I&apos;d love to hear about them.
                 </p>
             <footer>
                 <div className="flex flex-col">

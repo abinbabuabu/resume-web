@@ -10,15 +10,15 @@ export default function About() {
                 <p className="">I use code to solve real-world problems :-)</p>
 
                 <p className="">
-                    I started my journey as a software engineer while pursuing my bachelor's degree, met
+                    I started my journey as a software engineer while pursuing my bachelor&apos;s degree, met
                     few amazing people there and we bootstrapped{' '}
                     <a href="https://www.emildasolutions.com/">emilda solutions</a>, to solve customer
-                    problems through web & mobile solutions. Fast-forward to today, I'm helping the world
+                    problems through web & mobile solutions. Fast-forward to today, I&apos;m helping the world
                     run better with <a href="https://www.sap.com/india/index.html">SAP</a>.
                 </p>
 
                 <p>
-                    In my <a href="/#jobs">career</a>, I've worn multiple hats as a mobile developer,
+                    In my <a href="/#jobs">career</a>, I&apos;ve worn multiple hats as a mobile developer,
                     backend developer, and frontend developer. Passion for tinkering and figuring out new
                     things keeps me moving...
                 </p>
