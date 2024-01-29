@@ -29,9 +29,10 @@ const config: Config = {
                 accent: {
                     DEFAULT: '#b2ff9e',
                 },
-                g1: '#51c26f',
-                g2: '#adfda2',
-                g3: '#11d3f3',
+                g1: '#4f4ed7',
+                g2: '#11d3f3',
+                g3: '#fcc9ba',
+
             },
 
             keyframes: {

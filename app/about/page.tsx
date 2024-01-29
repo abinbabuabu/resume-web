@@ -3,9 +3,11 @@ import SectionTitle from '../components/section-title';
 
 export default function About() {
     return (
-        <section className="text-base text-normalText  md:pl-0 lg:pr-16 md:pr-8 md:pt-20 ">
+        <section className="text-base text-normalText md:pl-0 lg:pr-16 md:pr-8 md:pt-20 ">
             <div>
+
                 <SectionTitle title="About me"/>
+
 
                 <p className="">I use code to solve real-world problems :-)</p>
 

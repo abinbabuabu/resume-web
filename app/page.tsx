@@ -1,13 +1,13 @@
 import Hero from "@/app/components/hero";
 import About from "@/app/about/page";
 import Contact from "@/app/contact/page";
-import Experience from "@/app/(experience)/page";
+import Experience from "@/app/(experience)/experience";
 
 
 export default function Home() {
     return (
 
-            <div className="pl-8 pr-4 md:p-0 overflow-x-hidden justify-center md:overflow-y-hidden md:h-screen md:fixed">
+            <body className="pl-8 pr-4 md:p-0 overflow-x-hidden justify-center md:overflow-y-hidden md:h-screen ">
                 <div className="grid grid-cols-1 gap-12 md:grid-cols-5">
                     <div className="mt-12 md:col-span-2 md:mt-24">
                         <Hero/>
@@ -26,7 +26,7 @@ export default function Home() {
                 </div>
 
 
-            </div>
+            </body>
 
     )
 }
