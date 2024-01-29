@@ -7,20 +7,16 @@ import Experience from "@/app/(experience)/experience";
 export default function Home() {
     return (
 
-            <body className="pl-8 pr-4 md:p-0 overflow-x-hidden justify-center md:overflow-y-hidden md:h-screen ">
-                <div className="grid grid-cols-1 gap-12 md:grid-cols-5">
-                    <div className="mt-12 md:col-span-2 md:mt-24">
+            <body className="mx-auto overflow-x-hidden min-h-screen max-w-screen-xl  py-12 md:py-20 lg:py-0">
+                <div className="mx-4 lg:flex lg:justify-between lg:gap-4">
+                    <div className="w-fit lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
                         <Hero/>
                     </div>
-                    <main className="text-base md:col-span-3 md:pl-10 md:h-screen md:overflow-y-auto md:overflow-x-hidden scroll-smooth ">
+                    <main className="lg:w-1/2">
                         <About/>
-
-                        <Contact/>
-                        <Contact/>
-                        <Contact/>
-                        <Contact/>
-
                         <Experience/>
+
+                        <Contact/>
 
                     </main>
                 </div>
