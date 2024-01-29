@@ -18,7 +18,7 @@ export default function ExperienceTile() {
             <ul className="list-disc group-hover:text-white">
                 <li>Specialising in Angular, Typescript, Ngrx, Module-Federated mirco-frontends.</li>
                 <li>Developed highly customizable metadata driven ui solutions.</li>
-                <li>Responsible for designing (low-level) and developing cross-module re-useable ui's.</li>
+                <li>Responsible for designing (low-level) and developing cross-module re-useable ui&apos;s.</li>
             </ul>
         </div>
     )
