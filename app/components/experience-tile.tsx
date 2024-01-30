@@ -20,9 +20,9 @@ const ExperienceTile: React.FC<{ experience: Experience }> = ({experience}) => {
             </div>
 
             <ul className="list-disc group-hover:text-slate-300">
-                {experience.details.map(detail => {
+                {experience.details.map((detail,index) => {
                     return (
-                        <li className="font-sans text-md" key=''>{detail}</li>
+                        <li className="font-sans text-md" key={`${experience?.id}${index}`}>{detail}</li>
                     )
                 })}
             </ul>
