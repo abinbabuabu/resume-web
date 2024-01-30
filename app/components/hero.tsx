@@ -14,7 +14,7 @@ export default function Hero() {
 
                 <p className="w-fit font-bold relative  text-xl text-normalText before:absolute before:inset-0 before:animate-typewriter before:bg-primary
 after:absolute after:inset-0 after:w-[0.1em] after:animate-caret after:bg-white">
-                    Software Engineer <span className="text-accent">@</span> SAP
+                    Software Engineer <span className="text-accent">@</span>SAP
                 </p>
 
                 <NavBar navItems={navItems}/>

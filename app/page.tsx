@@ -1,6 +1,6 @@
 import Hero from "@/app/components/hero";
 import About from "@/app/(about)/about";
-import Contact from "@/app/contact/page";
+import Contact from "@/app/(contact)/contact";
 import Experience from "@/app/(experience)/experience";
 
 

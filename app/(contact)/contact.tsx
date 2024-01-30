@@ -1,15 +1,14 @@
 import React from 'react';
 import SectionTitle from "@/app/components/section-title";
 import SocialHandles from "@/app/components/social-handles";
+import {letsConnectMsg} from "@/data/content";
 
 export default function Home() {
     return (
         <section className="mb-6 text-normalText">
                 <SectionTitle title="Let's talk !"/>
                 <p>
-                    Im on the lookout for fresh opportunities where I can not only grow but also contribute my skills
-                    and knowledge.
-                    If you have exciting projects, job openings, or ideas, I&apos;d love to hear about them.
+                    {letsConnectMsg}
                 </p>
             <footer>
                 <div className="flex flex-col">
