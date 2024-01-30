@@ -9,7 +9,7 @@ export default function Experience() {
             <SectionTitle title="Experience"/>
             {experiences.map(exp =>{
                 return (
-                    <ExperienceTile key={exp.position} experience={exp}/>
+                    <ExperienceTile key={exp.id} experience={exp}/>
                 )
             })}
 

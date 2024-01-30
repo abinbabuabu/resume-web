@@ -1,4 +1,5 @@
 export interface Experience {
+    id?: string;
     from: string;
     to: string
     position: string;
