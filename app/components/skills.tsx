@@ -1,7 +1,4 @@
 import React from 'react';
-import Nav from './nav';
-import GithubIcon from "@/app/components/icons/github";
-import InstagramIcon from "@/app/components/icons/instagram";
 
 const Skills: React.FC<{skills?: Array<string> }> = ({ skills = [] }) => {
     return (

@@ -1,5 +1,4 @@
 import {Experience, NavItem} from "@/app/components/model/model";
-import React from "react";
 
 export const primarySkills = [
     'TypeScript',
