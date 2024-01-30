@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html className={`container bg-primary scroll-smooth mx-auto ${inter.className}`} lang="en">
+    <html className={`container bg-primary font-sans scroll-smooth mx-auto ${inter.className}`} lang="en">
       <>{children}</>
     </html>
   )
