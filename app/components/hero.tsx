@@ -9,7 +9,7 @@ const fontSpecialElite = Special_Elite({ weight:"400", subsets: ['latin'] })
 
 export default function Hero() {
     return (
-        <main className="lg:pl-16 md:pl-8 ">
+        <main className="lg:pl-16">
             <header>
                 <h4 className={`${fontSpecialElite.className} my-2 text-lg text-normalText `}>Hello, &nbsp; I&apos;m</h4>
 

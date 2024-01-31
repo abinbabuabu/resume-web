@@ -7,7 +7,7 @@ import {NavItem} from "@/app/components/model/model";
 const NavBar: React.FC<{navItems?: Array<NavItem>}> = ({navItems = []}) => {
     const pathname = usePathname()
     return (
-        <nav className="flex-col sm:justify-start md:my-24 hidden md:flex">
+        <nav className="flex-col sm:justify-start md:my-24 hidden lg:flex">
             {navItems.map((navItem) => (
                 <ul key={navItem.label}>
                     <a key={navItem.label} className={ `flex items-center py-3 group ${pathname === `${navItem.url}` ? 'active' : 'active' }`} href={navItem.url}>
