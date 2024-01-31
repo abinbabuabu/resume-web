@@ -18,7 +18,6 @@ const config: Config = {
             colors: {
                 primary: {
                     DEFAULT: '#001219',
-                    50: '#FFFFFF',
                 },
                 textOnPrimary: {
                     DEFAULT: '#e7ecef',
@@ -31,7 +30,7 @@ const config: Config = {
                 },
                 g1: '#4f4ed7',
                 g2: '#11d3f3',
-                g3: '#fcc9ba',
+                g3: '#cae9ff',
 
             },
 
@@ -76,4 +75,6 @@ const config: Config = {
     },
     plugins: [require("daisyui")],
 }
+
+
 export default config

@@ -1,19 +1,19 @@
 import React from 'react';
 import SectionTitle from "@/app/components/section-title";
 import SocialHandles from "@/app/components/social-handles";
-import {letsConnectMsg} from "@/data/content";
+import {letsConnectMsg, socialHandles} from "@/data/content";
 
 export default function Home() {
     return (
-        <section className="mb-6 text-normalText">
+        <section className="mb-6 text-normalText group">
                 <SectionTitle title="Let's talk !"/>
-                <p>
+                <p className='group-hover:text-slate-300'>
                     {letsConnectMsg}
                 </p>
             <footer>
-                <div className="flex flex-col">
-                    <div className="w-14 m-auto">
-                        <SocialHandles/>
+                <div className="flex flex-col ">
+                    <div className="m-auto">
+                        <SocialHandles socialHandles={socialHandles}/>
                     </div>
                     <div className="m-auto">
                         Developed with <span className="text-red-500">❤</span> by Abin Babu
