@@ -5,7 +5,7 @@ import {primarySkills} from "@/data/content";
 
 export default function About() {
     return (
-        <section id="about" className="text-base text-normalText md:pl-0 lg:pr-16 md:pr-8 md:pt-20 ">
+        <section id="about" className="text-base text-normalText md:pl-0 lg:pr-16 md:pr-8 md:pt-20 styledLink">
             <div>
 
                 <SectionTitle title="About me"/>

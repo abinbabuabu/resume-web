@@ -16,7 +16,8 @@ export const experiences: Array<Experience> = [
             'Mentored new team members in understanding project topics and implementation details, facilitating smooth onboarding.',
             'Actively participated as a top 60 code contributor for the mono-repo project (overall 1000+ contributors).'
         ],
-        skills: ['Angular', 'Typescript', 'Java', 'RxJS', 'Jasmine']
+        skills: ['Angular', 'Typescript', 'Java', 'RxJS', 'Jasmine'],
+        url:'https://abinbabu.com'
     },
 
     {
@@ -32,7 +33,8 @@ export const experiences: Array<Experience> = [
             'Ensured high-quality code through extensive test coverage(> 95 %) using Junit test cases .',
             'Learned and practised agile practices to plan, track, and deliver software features in a dynamic environment.'
         ],
-        skills: ['SpringBoot', 'Java', 'Hibernate', 'Redis', 'Hana']
+        skills: ['SpringBoot', 'Java', 'Hibernate', 'Redis', 'Hana'],
+        url:'https://abinbabu.com'
     },
 
     {
@@ -51,7 +53,8 @@ export const experiences: Array<Experience> = [
             'Collaborated with stakeholders to gather requirements, analyze business needs, and propose solutions to simplify the hiring lifecycle.',
             'Ideation to first event using the tool in 6 months.'
         ],
-        skills: ['SpringBoot', 'Java', 'Hibernate', 'MS GraphAPI', 'Hana']
+        skills: ['SpringBoot', 'Java', 'Hibernate', 'MS GraphAPI', 'Hana'],
+        url:'https://abinbabu.com'
     },
 
     {
@@ -67,7 +70,8 @@ export const experiences: Array<Experience> = [
             'Implemented code coverage using Junits.',
             'Mentored and conducted knowledge transfer sessions to new team members.'
         ],
-        skills: ['SpringBoot', 'Java', 'Hibernate', 'MS GraphAPI', 'Hana']
+        skills: ['SpringBoot', 'Java', 'Hibernate', 'MS GraphAPI', 'Hana'],
+        url:'https://abinbabu.com'
     },
 
     {   id:'1',
@@ -80,7 +84,8 @@ export const experiences: Array<Experience> = [
             'Worked with frameworks flutter, native android, ios development for different applications.',
             'Used Google cloud platform offerings to effectively scale & deploy the applications.'
         ],
-        skills: ['SpringBoot', 'Java', 'Hibernate', 'MS GraphAPI', 'Hana']
+        skills: ['SpringBoot', 'Java', 'Hibernate', 'MS GraphAPI', 'Hana'],
+        url:'https://abinbabu.com'
     },
 
 
